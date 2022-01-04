@@ -1,0 +1,31 @@
+/* 
+  File.strings
+  AirSimIOS
+
+  Created by YICHAO LI on 2021/12/23.
+  
+*/
+
+"DashBoard" = "总览";
+"Operation" = "营运";
+"Market"    = "市场";
+"Profile"   = "简介";
+"Welcome"   = "欢迎";
+"Grade"     = "评级";
+"Cash"      = "现金";
+"Base"      = "基地";
+"Station"   = "航站";
+"Fleet1"     = "机队规模";
+"Fleet2"     = "机队";
+"Staff"     = "员工数量";
+"Transported Passengers" = "乘客运输量";
+"Seat Load Factor(SLF)" = "客座率";
+"Transported Cargo" = "货物运输量";
+"Cargo Load Factor(CLF)" = "货载率";
+"Lastest Flight" = "最新航班";
+"Upcoming Flight" = "未来航班";
+"Station Manager" = "航站管理";
+"Aircarft Manager" ="航机管理";
+"New Fleet" = "新机队";
+"Route Manager" = "航线管理";
+"New RouteGroup" = "新航线组";

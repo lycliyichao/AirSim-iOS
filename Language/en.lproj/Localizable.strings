@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  AirSimIOS
+
+  Created by YICHAO LI on 2021/12/23.
+  
+*/
+
+"DashBoard" = "DashBoard";
+"Operation" = "Operation";
+"Market"    = "Market";
+"Profile"   = "Profile";
+"Welcome"   = "Welcome";
+"Grade"     = "Grade";
+"Cash"      = "Cash";
+"Base"      = "Base";
+"Station"   = "Station";
+"Fleet1"     = "Fleet";
+"Fleet2"     = "Fleet";
+"Staff"     = "Staff";
+"Transported Passengers" = "Transported Passengers";
+"Seat Load Factor(SLF)" = "Seat Load Factor(SLF)";
+"Transported Cargo" = "Transported Cargo";
+"Cargo Load Factor(CLF)" = "Cargo Load Factor(CLF)";
+"Lastest Flight" = "Lastest Flight";
+"Upcoming Flight" = "Upcoming Flight";
+"Station Manager" = "Station Manager";
+"Aircarft Manager" = "Aircarft Manager";
+"New Fleet" = "New Fleet";
+"Route Manager" = "Route Manager";
+"New RouteGroup" = "New RouteGroup";
+
