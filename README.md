@@ -3,4 +3,4 @@
 An APP designed run at iOS/iPadOS devices.
 build the interface by using SwiftUI.
 
-still working an
+still working on it
