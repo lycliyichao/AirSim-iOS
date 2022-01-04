@@ -1,0 +1,1079 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E096565273B70A40092AA6B /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 8E096564273B70A40092AA6B /* Earth.usdz */; };
+		8E0CF5ED277D821400B89739 /* SubView_AddRouteGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CF5EC277D821400B89739 /* SubView_AddRouteGroupView.swift */; };
+		8E0CF5EF277D826D00B89739 /* RouteDashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CF5EE277D826D00B89739 /* RouteDashBoardView.swift */; };
+		8E0CF5F2277D834100B89739 /* Compent_OperationRouteCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CF5F1277D834100B89739 /* Compent_OperationRouteCardListView.swift */; };
+		8E0CF5F4277D837E00B89739 /* Compent_OperationFleetCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CF5F3277D837E00B89739 /* Compent_OperationFleetCardListView.swift */; };
+		8E0CF5F6277D83AA00B89739 /* Compent_OperationStationCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CF5F5277D83AA00B89739 /* Compent_OperationStationCardListView.swift */; };
+		8E0CF606277DAF5400B89739 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 8E0CF605277DAF5400B89739 /* SwiftUICharts */; };
+		8E0CF608277DAF5C00B89739 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0CF607277DAF5C00B89739 /* AVFoundation.framework */; };
+		8E24AC582734F6ED004437B2 /* AirSimIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24AC572734F6ED004437B2 /* AirSimIOSApp.swift */; };
+		8E24AC5A2734F6ED004437B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24AC592734F6ED004437B2 /* ContentView.swift */; };
+		8E24AC5C2734F6EF004437B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E24AC5B2734F6EF004437B2 /* Assets.xcassets */; };
+		8E24AC5F2734F6EF004437B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E24AC5E2734F6EF004437B2 /* Preview Assets.xcassets */; };
+		8E24AC612734F6EF004437B2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24AC602734F6EF004437B2 /* Persistence.swift */; };
+		8E24AC642734F6EF004437B2 /* AirSimIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E24AC622734F6EF004437B2 /* AirSimIOS.xcdatamodeld */; };
+		8E24AC6E2734F6EF004437B2 /* AirSimIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24AC6D2734F6EF004437B2 /* AirSimIOSTests.swift */; };
+		8E24AC782734F6EF004437B2 /* AirSimIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24AC772734F6EF004437B2 /* AirSimIOSUITests.swift */; };
+		8E24AC7A2734F6EF004437B2 /* AirSimIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24AC792734F6EF004437B2 /* AirSimIOSUITestsLaunchTests.swift */; };
+		8E3309E4277AB07500FF87C0 /* FleetDashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3309E3277AB07500FF87C0 /* FleetDashBoardView.swift */; };
+		8E379775273B7F66001BD39A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E379774273B7F66001BD39A /* SwiftUI.framework */; };
+		8E379777273B7FA7001BD39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E379776273B7FA7001BD39A /* UIKit.framework */; };
+		8E4E6D37277772AB0067C00A /* FancyScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = 8E4E6D36277772AB0067C00A /* FancyScrollView */; };
+		8E4E6D39277773850067C00A /* ScrollDashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4E6D38277773850067C00A /* ScrollDashBoardView.swift */; };
+		8E4E6D3B27780B2C0067C00A /* SubView_HomeBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4E6D3A27780B2C0067C00A /* SubView_HomeBaseView.swift */; };
+		8E4E6D3E277869B70067C00A /* BaseAccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4E6D3D277869B70067C00A /* BaseAccountManager.swift */; };
+		8E4E6D40277952F20067C00A /* LocalizeManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4E6D3F277952F20067C00A /* LocalizeManager+Extension.swift */; };
+		8E4F824127744E8A0042B595 /* BottomBar-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8E4F824027744E8A0042B595 /* BottomBar-SwiftUI */; };
+		8E4F824C277450820042B595 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E4F824A277450820042B595 /* Localizable.strings */; };
+		8E4F824F2774508D0042B595 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E4F824D2774508D0042B595 /* Localizable.strings */; };
+		8E4F825227746BD80042B595 /* SwiftUIMapView in Frameworks */ = {isa = PBXBuildFile; productRef = 8E4F825127746BD80042B595 /* SwiftUIMapView */; };
+		8E4F8254277480EB0042B595 /* CLLocationCoordinate2DExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F8253277480EB0042B595 /* CLLocationCoordinate2DExtension.swift */; };
+		8E4F825A27757F960042B595 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F825927757F960042B595 /* MapView.swift */; };
+		8E4F825C27757FD30042B595 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F825B27757FD30042B595 /* LocationViewModel.swift */; };
+		8E4F825E27757FF40042B595 /* MapViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F825D27757FF40042B595 /* MapViewCoordinator.swift */; };
+		8E4F826527758E920042B595 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F826427758E920042B595 /* MapAnnotation.swift */; };
+		8E4F82742775BF110042B595 /* Polyline in Frameworks */ = {isa = PBXBuildFile; productRef = 8E4F82732775BF110042B595 /* Polyline */; };
+		8E561B3C277AC5F3000F0323 /* Model3DView in Frameworks */ = {isa = PBXBuildFile; productRef = 8E561B3B277AC5F3000F0323 /* Model3DView */; };
+		8E7B367827799B47000A968E /* Compent_GradeStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B367727799B47000A968E /* Compent_GradeStarView.swift */; };
+		8E7B367A27799BB7000A968E /* Compent_EarthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B367927799BB7000A968E /* Compent_EarthView.swift */; };
+		8E7B367C27799BEE000A968E /* Compent_BaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B367B27799BEE000A968E /* Compent_BaseInfoView.swift */; };
+		8E7B367F2779A116000A968E /* ScrollOperationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B367E2779A116000A968E /* ScrollOperationView.swift */; };
+		8E8B28042772D9B5007E15F2 /* GIFImage in Frameworks */ = {isa = PBXBuildFile; productRef = 8E8B28032772D9B5007E15F2 /* GIFImage */; };
+		8E8B28192772EA54007E15F2 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 8E8B28182772EA54007E15F2 /* PopupView */; };
+		8E8B28252772EDF0007E15F2 /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 8E8B28242772EDF0007E15F2 /* SwiftUIPullToRefresh */; };
+		8E8B282E2772FB22007E15F2 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 8E8B282D2772FB22007E15F2 /* SwiftUIX */; };
+		8E8D8EE1277ED63600755BC9 /* StationCardListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D8EE0277ED63600755BC9 /* StationCardListModel.swift */; };
+		8E8D8EE3277ED81D00755BC9 /* FleetCardListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D8EE2277ED81D00755BC9 /* FleetCardListModel.swift */; };
+		8E8D8EE5277ED82900755BC9 /* RouteCardListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D8EE4277ED82900755BC9 /* RouteCardListModel.swift */; };
+		8E8D8EE8277EEBC900755BC9 /* Compent_FuncNewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D8EE7277EEBC900755BC9 /* Compent_FuncNewButton.swift */; };
+		8E8D8EEA277EF55200755BC9 /* Compent_BasePieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D8EE9277EF55200755BC9 /* Compent_BasePieChartView.swift */; };
+		8E8D8EEC277EF75000755BC9 /* PieChartDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D8EEB277EF75000755BC9 /* PieChartDataModel.swift */; };
+		8E8D8EEE277F588600755BC9 /* Compent_BasePieChartViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D8EED277F588600755BC9 /* Compent_BasePieChartViewExtension.swift */; };
+		8E8D8EF02783DF2F00755BC9 /* LastestFlightDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D8EEF2783DF2F00755BC9 /* LastestFlightDataModel.swift */; };
+		8E8D8EF22783E0E200755BC9 /* UpcomingFlightDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8D8EF12783E0E200755BC9 /* UpcomingFlightDataModel.swift */; };
+		8E937776277AFB2A0024D6CD /* Compent_OperationBasicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E937775277AFB2A0024D6CD /* Compent_OperationBasicCardView.swift */; };
+		8E937778277AFB8F0024D6CD /* Compent_OperationDashBoardCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E937777277AFB8F0024D6CD /* Compent_OperationDashBoardCardView.swift */; };
+		8E93777A277B06680024D6CD /* StationDashBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E937779277B06680024D6CD /* StationDashBoard.swift */; };
+		8E93777C277B09000024D6CD /* SubView_AddFleetGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E93777B277B09000024D6CD /* SubView_AddFleetGroupView.swift */; };
+		8E937782277B0E650024D6CD /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 8E937781277B0E650024D6CD /* PartialSheet */; };
+		8E937785277B13AD0024D6CD /* SevenContinentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E937784277B13AD0024D6CD /* SevenContinentsModel.swift */; };
+		8EFD7AD2277C567B003B3443 /* FleetBasicCardViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD7AD1277C567B003B3443 /* FleetBasicCardViewData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E24AC6A2734F6EF004437B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E24AC4C2734F6ED004437B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E24AC532734F6ED004437B2;
+			remoteInfo = AirSimIOS;
+		};
+		8E24AC742734F6EF004437B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E24AC4C2734F6ED004437B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E24AC532734F6ED004437B2;
+			remoteInfo = AirSimIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E096564273B70A40092AA6B /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
+		8E0CF5EC277D821400B89739 /* SubView_AddRouteGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView_AddRouteGroupView.swift; sourceTree = "<group>"; };
+		8E0CF5EE277D826D00B89739 /* RouteDashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDashBoardView.swift; sourceTree = "<group>"; };
+		8E0CF5F1277D834100B89739 /* Compent_OperationRouteCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compent_OperationRouteCardListView.swift; sourceTree = "<group>"; };
+		8E0CF5F3277D837E00B89739 /* Compent_OperationFleetCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compent_OperationFleetCardListView.swift; sourceTree = "<group>"; };
+		8E0CF5F5277D83AA00B89739 /* Compent_OperationStationCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compent_OperationStationCardListView.swift; sourceTree = "<group>"; };
+		8E0CF604277DAF4100B89739 /* ChartView-2.0.0-beta2 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "ChartView-2.0.0-beta2"; path = "ThirdPartyPackages/ChartView-2.0.0-beta2"; sourceTree = "<group>"; };
+		8E0CF607277DAF5C00B89739 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8E24AC542734F6ED004437B2 /* AirSimIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirSimIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E24AC572734F6ED004437B2 /* AirSimIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirSimIOSApp.swift; sourceTree = "<group>"; };
+		8E24AC592734F6ED004437B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E24AC5B2734F6EF004437B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E24AC5E2734F6EF004437B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E24AC602734F6EF004437B2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8E24AC632734F6EF004437B2 /* AirSimIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AirSimIOS.xcdatamodel; sourceTree = "<group>"; };
+		8E24AC692734F6EF004437B2 /* AirSimIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirSimIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E24AC6D2734F6EF004437B2 /* AirSimIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirSimIOSTests.swift; sourceTree = "<group>"; };
+		8E24AC732734F6EF004437B2 /* AirSimIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirSimIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E24AC772734F6EF004437B2 /* AirSimIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirSimIOSUITests.swift; sourceTree = "<group>"; };
+		8E24AC792734F6EF004437B2 /* AirSimIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirSimIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E3309E3277AB07500FF87C0 /* FleetDashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetDashBoardView.swift; sourceTree = "<group>"; };
+		8E379774273B7F66001BD39A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		8E379776273B7FA7001BD39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E4E6D352777728C0067C00A /* FancyScrollView-0.1.4 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "FancyScrollView-0.1.4"; path = "ThirdPartyPackages/FancyScrollView-0.1.4"; sourceTree = "<group>"; };
+		8E4E6D38277773850067C00A /* ScrollDashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollDashBoardView.swift; sourceTree = "<group>"; };
+		8E4E6D3A27780B2C0067C00A /* SubView_HomeBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView_HomeBaseView.swift; sourceTree = "<group>"; };
+		8E4E6D3D277869B70067C00A /* BaseAccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAccountManager.swift; sourceTree = "<group>"; };
+		8E4E6D3F277952F20067C00A /* LocalizeManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalizeManager+Extension.swift"; sourceTree = "<group>"; };
+		8E4F824B277450820042B595 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		8E4F824E2774508D0042B595 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
+		8E4F8253277480EB0042B595 /* CLLocationCoordinate2DExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2DExtension.swift; sourceTree = "<group>"; };
+		8E4F825927757F960042B595 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8E4F825B27757FD30042B595 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		8E4F825D27757FF40042B595 /* MapViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewCoordinator.swift; sourceTree = "<group>"; };
+		8E4F826427758E920042B595 /* MapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		8E4F82692775BD8C0042B595 /* bottombar-swiftui */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "bottombar-swiftui"; path = "ThirdPartyPackages/bottombar-swiftui"; sourceTree = "<group>"; };
+		8E4F826B2775BDAD0042B595 /* GIFImage-1.0.1 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "GIFImage-1.0.1"; path = "ThirdPartyPackages/GIFImage-1.0.1"; sourceTree = "<group>"; };
+		8E4F826D2775BDCA0042B595 /* PermissionsSwiftUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PermissionsSwiftUI; path = ThirdPartyPackages/PermissionsSwiftUI; sourceTree = "<group>"; };
+		8E4F826E2775BDD40042B595 /* PopupView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PopupView; path = ThirdPartyPackages/PopupView; sourceTree = "<group>"; };
+		8E4F826F2775BDE00042B595 /* swiftui-mapview-1.2.1 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "swiftui-mapview-1.2.1"; path = "ThirdPartyPackages/swiftui-mapview-1.2.1"; sourceTree = "<group>"; };
+		8E4F82702775BDEC0042B595 /* SwiftUI-PullToRefresh */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "SwiftUI-PullToRefresh"; path = "ThirdPartyPackages/SwiftUI-PullToRefresh"; sourceTree = "<group>"; };
+		8E4F82712775BE060042B595 /* SwiftUIX-0.1.1 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "SwiftUIX-0.1.1"; path = "ThirdPartyPackages/SwiftUIX-0.1.1"; sourceTree = "<group>"; };
+		8E4F82722775BEC50042B595 /* Polyline-5.0.2 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "Polyline-5.0.2"; path = "ThirdPartyPackages/Model3D/Polyline-5.0.2"; sourceTree = "<group>"; };
+		8E561B3A277AC51D000F0323 /* Model3DView-0.1.1 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "Model3DView-0.1.1"; path = "ThirdPartyPackages/Model3D/Model3DView-0.1.1"; sourceTree = "<group>"; };
+		8E7B367727799B47000A968E /* Compent_GradeStarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compent_GradeStarView.swift; sourceTree = "<group>"; };
+		8E7B367927799BB7000A968E /* Compent_EarthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compent_EarthView.swift; sourceTree = "<group>"; };
+		8E7B367B27799BEE000A968E /* Compent_BaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compent_BaseInfoView.swift; sourceTree = "<group>"; };
+		8E7B367E2779A116000A968E /* ScrollOperationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOperationView.swift; sourceTree = "<group>"; };
+		8E8B280D2772E9CF007E15F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8E8D8EE0277ED63600755BC9 /* StationCardListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationCardListModel.swift; sourceTree = "<group>"; };
+		8E8D8EE2277ED81D00755BC9 /* FleetCardListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetCardListModel.swift; sourceTree = "<group>"; };
+		8E8D8EE4277ED82900755BC9 /* RouteCardListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCardListModel.swift; sourceTree = "<group>"; };
+		8E8D8EE7277EEBC900755BC9 /* Compent_FuncNewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compent_FuncNewButton.swift; sourceTree = "<group>"; };
+		8E8D8EE9277EF55200755BC9 /* Compent_BasePieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compent_BasePieChartView.swift; sourceTree = "<group>"; };
+		8E8D8EEB277EF75000755BC9 /* PieChartDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartDataModel.swift; sourceTree = "<group>"; };
+		8E8D8EED277F588600755BC9 /* Compent_BasePieChartViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compent_BasePieChartViewExtension.swift; sourceTree = "<group>"; };
+		8E8D8EEF2783DF2F00755BC9 /* LastestFlightDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastestFlightDataModel.swift; sourceTree = "<group>"; };
+		8E8D8EF12783E0E200755BC9 /* UpcomingFlightDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingFlightDataModel.swift; sourceTree = "<group>"; };
+		8E8D8EF32783FB5000755BC9 /* AirSimIOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirSimIOS.entitlements; sourceTree = "<group>"; };
+		8E937775277AFB2A0024D6CD /* Compent_OperationBasicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compent_OperationBasicCardView.swift; sourceTree = "<group>"; };
+		8E937777277AFB8F0024D6CD /* Compent_OperationDashBoardCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compent_OperationDashBoardCardView.swift; sourceTree = "<group>"; };
+		8E937779277B06680024D6CD /* StationDashBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDashBoard.swift; sourceTree = "<group>"; };
+		8E93777B277B09000024D6CD /* SubView_AddFleetGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView_AddFleetGroupView.swift; sourceTree = "<group>"; };
+		8E937780277B0E580024D6CD /* PartialSheet-2.1.14 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "PartialSheet-2.1.14"; path = "ThirdPartyPackages/PartialSheet-2.1.14"; sourceTree = "<group>"; };
+		8E937784277B13AD0024D6CD /* SevenContinentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenContinentsModel.swift; sourceTree = "<group>"; };
+		8EFD7AD1277C567B003B3443 /* FleetBasicCardViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetBasicCardViewData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E24AC512734F6ED004437B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8B282E2772FB22007E15F2 /* SwiftUIX in Frameworks */,
+				8E8B28192772EA54007E15F2 /* PopupView in Frameworks */,
+				8E0CF606277DAF5400B89739 /* SwiftUICharts in Frameworks */,
+				8E4F824127744E8A0042B595 /* BottomBar-SwiftUI in Frameworks */,
+				8E4F825227746BD80042B595 /* SwiftUIMapView in Frameworks */,
+				8E8B28042772D9B5007E15F2 /* GIFImage in Frameworks */,
+				8E561B3C277AC5F3000F0323 /* Model3DView in Frameworks */,
+				8E4E6D37277772AB0067C00A /* FancyScrollView in Frameworks */,
+				8E8B28252772EDF0007E15F2 /* SwiftUIPullToRefresh in Frameworks */,
+				8E379777273B7FA7001BD39A /* UIKit.framework in Frameworks */,
+				8E937782277B0E650024D6CD /* PartialSheet in Frameworks */,
+				8E4F82742775BF110042B595 /* Polyline in Frameworks */,
+				8E0CF608277DAF5C00B89739 /* AVFoundation.framework in Frameworks */,
+				8E379775273B7F66001BD39A /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E24AC662734F6EF004437B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E24AC702734F6EF004437B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E096566273B70B40092AA6B /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				8E096564273B70A40092AA6B /* Earth.usdz */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		8E0CF5F0277D827A00B89739 /* OperationDashBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				8E937779277B06680024D6CD /* StationDashBoard.swift */,
+				8E3309E3277AB07500FF87C0 /* FleetDashBoardView.swift */,
+				8E0CF5EE277D826D00B89739 /* RouteDashBoardView.swift */,
+			);
+			path = OperationDashBoardView;
+			sourceTree = "<group>";
+		};
+		8E0CF5F7277D83DA00B89739 /* SubView_OperationPartialSheet */ = {
+			isa = PBXGroup;
+			children = (
+				8E93777B277B09000024D6CD /* SubView_AddFleetGroupView.swift */,
+				8E0CF5EC277D821400B89739 /* SubView_AddRouteGroupView.swift */,
+			);
+			path = SubView_OperationPartialSheet;
+			sourceTree = "<group>";
+		};
+		8E0CF5F8277D842F00B89739 /* Compent_BaseCardView */ = {
+			isa = PBXGroup;
+			children = (
+				8E937775277AFB2A0024D6CD /* Compent_OperationBasicCardView.swift */,
+				8E937777277AFB8F0024D6CD /* Compent_OperationDashBoardCardView.swift */,
+			);
+			path = Compent_BaseCardView;
+			sourceTree = "<group>";
+		};
+		8E0CF5F9277D845500B89739 /* Compent_CardListView */ = {
+			isa = PBXGroup;
+			children = (
+				8E0CF5F5277D83AA00B89739 /* Compent_OperationStationCardListView.swift */,
+				8E0CF5F3277D837E00B89739 /* Compent_OperationFleetCardListView.swift */,
+				8E0CF5F1277D834100B89739 /* Compent_OperationRouteCardListView.swift */,
+			);
+			path = Compent_CardListView;
+			sourceTree = "<group>";
+		};
+		8E24AC4B2734F6ED004437B2 = {
+			isa = PBXGroup;
+			children = (
+				8E4E6D3C277869950067C00A /* BaseAccountManager */,
+				8E4F826227758E6B0042B595 /* MapViewManager */,
+				8E4F825527757E1B0042B595 /* Extension */,
+				8E4F823027744A990042B595 /* Language */,
+				8E24AC6C2734F6EF004437B2 /* AirSimIOSTests */,
+				8E24AC762734F6EF004437B2 /* AirSimIOSUITests */,
+				8E24AC562734F6ED004437B2 /* AirSimIOS */,
+				8E24AC552734F6ED004437B2 /* Products */,
+				8E379773273B7F66001BD39A /* Frameworks */,
+				8EA6568A27707A4000CE0A28 /* Packages */,
+			);
+			sourceTree = "<group>";
+		};
+		8E24AC552734F6ED004437B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E24AC542734F6ED004437B2 /* AirSimIOS.app */,
+				8E24AC692734F6EF004437B2 /* AirSimIOSTests.xctest */,
+				8E24AC732734F6EF004437B2 /* AirSimIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E24AC562734F6ED004437B2 /* AirSimIOS */ = {
+			isa = PBXGroup;
+			children = (
+				8E8D8EF32783FB5000755BC9 /* AirSimIOS.entitlements */,
+				8E4F82662775B41D0042B595 /* DashBoardView */,
+				8E7B367D2779A0F3000A968E /* OperationView */,
+				8E8B280D2772E9CF007E15F2 /* Info.plist */,
+				8E096566273B70B40092AA6B /* Object */,
+				8E24AC572734F6ED004437B2 /* AirSimIOSApp.swift */,
+				8E24AC592734F6ED004437B2 /* ContentView.swift */,
+				8E24AC5B2734F6EF004437B2 /* Assets.xcassets */,
+				8E24AC602734F6EF004437B2 /* Persistence.swift */,
+				8E24AC622734F6EF004437B2 /* AirSimIOS.xcdatamodeld */,
+				8E24AC5D2734F6EF004437B2 /* Preview Content */,
+				8E4F8253277480EB0042B595 /* CLLocationCoordinate2DExtension.swift */,
+			);
+			path = AirSimIOS;
+			sourceTree = "<group>";
+		};
+		8E24AC5D2734F6EF004437B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E24AC5E2734F6EF004437B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E24AC6C2734F6EF004437B2 /* AirSimIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E24AC6D2734F6EF004437B2 /* AirSimIOSTests.swift */,
+			);
+			path = AirSimIOSTests;
+			sourceTree = "<group>";
+		};
+		8E24AC762734F6EF004437B2 /* AirSimIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E24AC772734F6EF004437B2 /* AirSimIOSUITests.swift */,
+				8E24AC792734F6EF004437B2 /* AirSimIOSUITestsLaunchTests.swift */,
+			);
+			path = AirSimIOSUITests;
+			sourceTree = "<group>";
+		};
+		8E379773273B7F66001BD39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E0CF607277DAF5C00B89739 /* AVFoundation.framework */,
+				8E379776273B7FA7001BD39A /* UIKit.framework */,
+				8E379774273B7F66001BD39A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E4E6D3C277869950067C00A /* BaseAccountManager */ = {
+			isa = PBXGroup;
+			children = (
+				8E4E6D3D277869B70067C00A /* BaseAccountManager.swift */,
+			);
+			path = BaseAccountManager;
+			sourceTree = "<group>";
+		};
+		8E4F823027744A990042B595 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F823227744AB40042B595 /* en.lproj */,
+				8E4F823127744AA50042B595 /* zh-Hans.lproj */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		8E4F823127744AA50042B595 /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F824D2774508D0042B595 /* Localizable.strings */,
+			);
+			path = "zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
+		8E4F823227744AB40042B595 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F824A277450820042B595 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		8E4F825527757E1B0042B595 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F825827757F730042B595 /* MapView */,
+				8E4E6D3F277952F20067C00A /* LocalizeManager+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8E4F825827757F730042B595 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F825927757F960042B595 /* MapView.swift */,
+				8E4F825B27757FD30042B595 /* LocationViewModel.swift */,
+				8E4F825D27757FF40042B595 /* MapViewCoordinator.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		8E4F826227758E6B0042B595 /* MapViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F826327758E790042B595 /* MapViewManager */,
+			);
+			path = MapViewManager;
+			sourceTree = "<group>";
+		};
+		8E4F826327758E790042B595 /* MapViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F826427758E920042B595 /* MapAnnotation.swift */,
+			);
+			path = MapViewManager;
+			sourceTree = "<group>";
+		};
+		8E4F82662775B41D0042B595 /* DashBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				8E4E6D38277773850067C00A /* ScrollDashBoardView.swift */,
+				8E4E6D3A27780B2C0067C00A /* SubView_HomeBaseView.swift */,
+				8E7B367727799B47000A968E /* Compent_GradeStarView.swift */,
+				8E7B367927799BB7000A968E /* Compent_EarthView.swift */,
+				8E7B367B27799BEE000A968E /* Compent_BaseInfoView.swift */,
+				8E8D8EE9277EF55200755BC9 /* Compent_BasePieChartView.swift */,
+				8E8D8EEB277EF75000755BC9 /* PieChartDataModel.swift */,
+				8E8D8EED277F588600755BC9 /* Compent_BasePieChartViewExtension.swift */,
+				8E8D8EEF2783DF2F00755BC9 /* LastestFlightDataModel.swift */,
+				8E8D8EF12783E0E200755BC9 /* UpcomingFlightDataModel.swift */,
+			);
+			path = DashBoardView;
+			sourceTree = "<group>";
+		};
+		8E7B367D2779A0F3000A968E /* OperationView */ = {
+			isa = PBXGroup;
+			children = (
+				8E7B367E2779A116000A968E /* ScrollOperationView.swift */,
+				8E937783277B13780024D6CD /* BaseData */,
+				8E0CF5F0277D827A00B89739 /* OperationDashBoardView */,
+				8E8D8EE6277EEB7500755BC9 /* Compent_Button */,
+				8E0CF5F8277D842F00B89739 /* Compent_BaseCardView */,
+				8E0CF5F9277D845500B89739 /* Compent_CardListView */,
+				8E0CF5F7277D83DA00B89739 /* SubView_OperationPartialSheet */,
+			);
+			path = OperationView;
+			sourceTree = "<group>";
+		};
+		8E8D8EE6277EEB7500755BC9 /* Compent_Button */ = {
+			isa = PBXGroup;
+			children = (
+				8E8D8EE7277EEBC900755BC9 /* Compent_FuncNewButton.swift */,
+			);
+			path = Compent_Button;
+			sourceTree = "<group>";
+		};
+		8E937783277B13780024D6CD /* BaseData */ = {
+			isa = PBXGroup;
+			children = (
+				8EFD7AD1277C567B003B3443 /* FleetBasicCardViewData.swift */,
+				8E937784277B13AD0024D6CD /* SevenContinentsModel.swift */,
+				8E8D8EE0277ED63600755BC9 /* StationCardListModel.swift */,
+				8E8D8EE2277ED81D00755BC9 /* FleetCardListModel.swift */,
+				8E8D8EE4277ED82900755BC9 /* RouteCardListModel.swift */,
+			);
+			path = BaseData;
+			sourceTree = "<group>";
+		};
+		8EA6568A27707A4000CE0A28 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F82692775BD8C0042B595 /* bottombar-swiftui */,
+				8E4F826B2775BDAD0042B595 /* GIFImage-1.0.1 */,
+				8E4F826D2775BDCA0042B595 /* PermissionsSwiftUI */,
+				8E4F826E2775BDD40042B595 /* PopupView */,
+				8E4F826F2775BDE00042B595 /* swiftui-mapview-1.2.1 */,
+				8E4F82702775BDEC0042B595 /* SwiftUI-PullToRefresh */,
+				8E4F82712775BE060042B595 /* SwiftUIX-0.1.1 */,
+				8E4F82722775BEC50042B595 /* Polyline-5.0.2 */,
+				8E4E6D352777728C0067C00A /* FancyScrollView-0.1.4 */,
+				8E561B3A277AC51D000F0323 /* Model3DView-0.1.1 */,
+				8E937780277B0E580024D6CD /* PartialSheet-2.1.14 */,
+				8E0CF604277DAF4100B89739 /* ChartView-2.0.0-beta2 */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E24AC532734F6ED004437B2 /* AirSimIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E24AC7D2734F6EF004437B2 /* Build configuration list for PBXNativeTarget "AirSimIOS" */;
+			buildPhases = (
+				8E24AC502734F6ED004437B2 /* Sources */,
+				8E24AC512734F6ED004437B2 /* Frameworks */,
+				8E24AC522734F6ED004437B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirSimIOS;
+			packageProductDependencies = (
+				8E8B28032772D9B5007E15F2 /* GIFImage */,
+				8E8B28182772EA54007E15F2 /* PopupView */,
+				8E8B28242772EDF0007E15F2 /* SwiftUIPullToRefresh */,
+				8E8B282D2772FB22007E15F2 /* SwiftUIX */,
+				8E4F824027744E8A0042B595 /* BottomBar-SwiftUI */,
+				8E4F825127746BD80042B595 /* SwiftUIMapView */,
+				8E4F82732775BF110042B595 /* Polyline */,
+				8E4E6D36277772AB0067C00A /* FancyScrollView */,
+				8E561B3B277AC5F3000F0323 /* Model3DView */,
+				8E937781277B0E650024D6CD /* PartialSheet */,
+				8E0CF605277DAF5400B89739 /* SwiftUICharts */,
+			);
+			productName = AirSimIOS;
+			productReference = 8E24AC542734F6ED004437B2 /* AirSimIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E24AC682734F6EF004437B2 /* AirSimIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E24AC802734F6EF004437B2 /* Build configuration list for PBXNativeTarget "AirSimIOSTests" */;
+			buildPhases = (
+				8E24AC652734F6EF004437B2 /* Sources */,
+				8E24AC662734F6EF004437B2 /* Frameworks */,
+				8E24AC672734F6EF004437B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E24AC6B2734F6EF004437B2 /* PBXTargetDependency */,
+			);
+			name = AirSimIOSTests;
+			productName = AirSimIOSTests;
+			productReference = 8E24AC692734F6EF004437B2 /* AirSimIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E24AC722734F6EF004437B2 /* AirSimIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E24AC832734F6EF004437B2 /* Build configuration list for PBXNativeTarget "AirSimIOSUITests" */;
+			buildPhases = (
+				8E24AC6F2734F6EF004437B2 /* Sources */,
+				8E24AC702734F6EF004437B2 /* Frameworks */,
+				8E24AC712734F6EF004437B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E24AC752734F6EF004437B2 /* PBXTargetDependency */,
+			);
+			name = AirSimIOSUITests;
+			productName = AirSimIOSUITests;
+			productReference = 8E24AC732734F6EF004437B2 /* AirSimIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E24AC4C2734F6ED004437B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					8E24AC532734F6ED004437B2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					8E24AC682734F6EF004437B2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 8E24AC532734F6ED004437B2;
+					};
+					8E24AC722734F6EF004437B2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 8E24AC532734F6ED004437B2;
+					};
+				};
+			};
+			buildConfigurationList = 8E24AC4F2734F6ED004437B2 /* Build configuration list for PBXProject "AirSimIOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 8E24AC4B2734F6ED004437B2;
+			packageReferences = (
+			);
+			productRefGroup = 8E24AC552734F6ED004437B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E24AC532734F6ED004437B2 /* AirSimIOS */,
+				8E24AC682734F6EF004437B2 /* AirSimIOSTests */,
+				8E24AC722734F6EF004437B2 /* AirSimIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E24AC522734F6ED004437B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E24AC5F2734F6EF004437B2 /* Preview Assets.xcassets in Resources */,
+				8E4F824C277450820042B595 /* Localizable.strings in Resources */,
+				8E096565273B70A40092AA6B /* Earth.usdz in Resources */,
+				8E24AC5C2734F6EF004437B2 /* Assets.xcassets in Resources */,
+				8E4F824F2774508D0042B595 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E24AC672734F6EF004437B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E24AC712734F6EF004437B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E24AC502734F6ED004437B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8D8EE1277ED63600755BC9 /* StationCardListModel.swift in Sources */,
+				8E8D8EE8277EEBC900755BC9 /* Compent_FuncNewButton.swift in Sources */,
+				8E4E6D40277952F20067C00A /* LocalizeManager+Extension.swift in Sources */,
+				8E3309E4277AB07500FF87C0 /* FleetDashBoardView.swift in Sources */,
+				8E4F825E27757FF40042B595 /* MapViewCoordinator.swift in Sources */,
+				8E93777C277B09000024D6CD /* SubView_AddFleetGroupView.swift in Sources */,
+				8E937785277B13AD0024D6CD /* SevenContinentsModel.swift in Sources */,
+				8E24AC612734F6EF004437B2 /* Persistence.swift in Sources */,
+				8E4F825A27757F960042B595 /* MapView.swift in Sources */,
+				8E8D8EF22783E0E200755BC9 /* UpcomingFlightDataModel.swift in Sources */,
+				8E4E6D39277773850067C00A /* ScrollDashBoardView.swift in Sources */,
+				8E8D8EF02783DF2F00755BC9 /* LastestFlightDataModel.swift in Sources */,
+				8E8D8EE5277ED82900755BC9 /* RouteCardListModel.swift in Sources */,
+				8E0CF5EF277D826D00B89739 /* RouteDashBoardView.swift in Sources */,
+				8E8D8EEA277EF55200755BC9 /* Compent_BasePieChartView.swift in Sources */,
+				8E7B367A27799BB7000A968E /* Compent_EarthView.swift in Sources */,
+				8E8D8EEE277F588600755BC9 /* Compent_BasePieChartViewExtension.swift in Sources */,
+				8E4F8254277480EB0042B595 /* CLLocationCoordinate2DExtension.swift in Sources */,
+				8E24AC5A2734F6ED004437B2 /* ContentView.swift in Sources */,
+				8E4F825C27757FD30042B595 /* LocationViewModel.swift in Sources */,
+				8E24AC642734F6EF004437B2 /* AirSimIOS.xcdatamodeld in Sources */,
+				8E8D8EE3277ED81D00755BC9 /* FleetCardListModel.swift in Sources */,
+				8E937778277AFB8F0024D6CD /* Compent_OperationDashBoardCardView.swift in Sources */,
+				8E4F826527758E920042B595 /* MapAnnotation.swift in Sources */,
+				8E0CF5ED277D821400B89739 /* SubView_AddRouteGroupView.swift in Sources */,
+				8E4E6D3B27780B2C0067C00A /* SubView_HomeBaseView.swift in Sources */,
+				8E0CF5F6277D83AA00B89739 /* Compent_OperationStationCardListView.swift in Sources */,
+				8E8D8EEC277EF75000755BC9 /* PieChartDataModel.swift in Sources */,
+				8E0CF5F4277D837E00B89739 /* Compent_OperationFleetCardListView.swift in Sources */,
+				8EFD7AD2277C567B003B3443 /* FleetBasicCardViewData.swift in Sources */,
+				8E7B367C27799BEE000A968E /* Compent_BaseInfoView.swift in Sources */,
+				8E937776277AFB2A0024D6CD /* Compent_OperationBasicCardView.swift in Sources */,
+				8E7B367827799B47000A968E /* Compent_GradeStarView.swift in Sources */,
+				8E7B367F2779A116000A968E /* ScrollOperationView.swift in Sources */,
+				8E93777A277B06680024D6CD /* StationDashBoard.swift in Sources */,
+				8E24AC582734F6ED004437B2 /* AirSimIOSApp.swift in Sources */,
+				8E0CF5F2277D834100B89739 /* Compent_OperationRouteCardListView.swift in Sources */,
+				8E4E6D3E277869B70067C00A /* BaseAccountManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E24AC652734F6EF004437B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E24AC6E2734F6EF004437B2 /* AirSimIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E24AC6F2734F6EF004437B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E24AC782734F6EF004437B2 /* AirSimIOSUITests.swift in Sources */,
+				8E24AC7A2734F6EF004437B2 /* AirSimIOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E24AC6B2734F6EF004437B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E24AC532734F6ED004437B2 /* AirSimIOS */;
+			targetProxy = 8E24AC6A2734F6EF004437B2 /* PBXContainerItemProxy */;
+		};
+		8E24AC752734F6EF004437B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E24AC532734F6ED004437B2 /* AirSimIOS */;
+			targetProxy = 8E24AC742734F6EF004437B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E4F824A277450820042B595 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4F824B277450820042B595 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8E4F824D2774508D0042B595 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4F824E2774508D0042B595 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E24AC7B2734F6EF004437B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E24AC7C2734F6EF004437B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E24AC7E2734F6EF004437B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AirSimIOS/AirSimIOS.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "AirSimIOS/Preview\\ Content";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirSimIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yichao.AirSimIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E24AC7F2734F6EF004437B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AirSimIOS/AirSimIOS.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "AirSimIOS/Preview\\ Content";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirSimIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yichao.AirSimIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E24AC812734F6EF004437B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yichao.AirSimIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirSimIOS.app/AirSimIOS";
+			};
+			name = Debug;
+		};
+		8E24AC822734F6EF004437B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yichao.AirSimIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirSimIOS.app/AirSimIOS";
+			};
+			name = Release;
+		};
+		8E24AC842734F6EF004437B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yichao.AirSimIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirSimIOS;
+			};
+			name = Debug;
+		};
+		8E24AC852734F6EF004437B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yichao.AirSimIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirSimIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E24AC4F2734F6ED004437B2 /* Build configuration list for PBXProject "AirSimIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E24AC7B2734F6EF004437B2 /* Debug */,
+				8E24AC7C2734F6EF004437B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E24AC7D2734F6EF004437B2 /* Build configuration list for PBXNativeTarget "AirSimIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E24AC7E2734F6EF004437B2 /* Debug */,
+				8E24AC7F2734F6EF004437B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E24AC802734F6EF004437B2 /* Build configuration list for PBXNativeTarget "AirSimIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E24AC812734F6EF004437B2 /* Debug */,
+				8E24AC822734F6EF004437B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E24AC832734F6EF004437B2 /* Build configuration list for PBXNativeTarget "AirSimIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E24AC842734F6EF004437B2 /* Debug */,
+				8E24AC852734F6EF004437B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E0CF605277DAF5400B89739 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUICharts;
+		};
+		8E4E6D36277772AB0067C00A /* FancyScrollView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FancyScrollView;
+		};
+		8E4F824027744E8A0042B595 /* BottomBar-SwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "BottomBar-SwiftUI";
+		};
+		8E4F825127746BD80042B595 /* SwiftUIMapView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUIMapView;
+		};
+		8E4F82732775BF110042B595 /* Polyline */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Polyline;
+		};
+		8E561B3B277AC5F3000F0323 /* Model3DView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Model3DView;
+		};
+		8E8B28032772D9B5007E15F2 /* GIFImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GIFImage;
+		};
+		8E8B28182772EA54007E15F2 /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PopupView;
+		};
+		8E8B28242772EDF0007E15F2 /* SwiftUIPullToRefresh */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUIPullToRefresh;
+		};
+		8E8B282D2772FB22007E15F2 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftUIX;
+		};
+		8E937781277B0E650024D6CD /* PartialSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PartialSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		8E24AC622734F6EF004437B2 /* AirSimIOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E24AC632734F6EF004437B2 /* AirSimIOS.xcdatamodel */,
+			);
+			currentVersion = 8E24AC632734F6EF004437B2 /* AirSimIOS.xcdatamodel */;
+			path = AirSimIOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E24AC4C2734F6ED004437B2 /* Project object */;
+}
